@@ -52,7 +52,7 @@ p {
   padding: 20px;
   background-color: #eeeeee95;
   min-width: 280px;
-  height: 60%;
+  height: 50%;
   position: absolute;
   left: 50%;
   top: 40%;
@@ -109,7 +109,7 @@ p {
     padding: 0px 20px;
   }
   100% {
-    height: 60%;
+    height: 50%;
     padding: 20px 20px;
   }
 }
@@ -173,7 +173,7 @@ p {
 }
 
 .openedHer {
-  top: 75%;
+  top: 65%;
   transform: translate(-50%, 0);
 }
 
@@ -196,13 +196,14 @@ p {
 }
 .back {
   display: flex;
-  justify-content: center;
+  /* text-align: center; */
+  /* justify-content: center; */
   position: absolute;
-  bottom: 10%;
+  bottom: 15%;
   /* left: 50%; */
   font-size: 18px;
   font-weight: 700;
-  color: white;
+  color: rgb(19, 176, 224);
   text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
